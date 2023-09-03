@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pardus-welcome\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-26 14:48+0300\n"
-"PO-Revision-Date: 2022-11-20 21:09+0000\n"
+"PO-Revision-Date: 2023-09-03 23:51+0100\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <hugokarvalho@hotmail.com\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #: ui/MainWindow.glade:109
 msgid ""
@@ -51,11 +51,11 @@ msgstr "<b>Tamanho dos ícones da área de trabalho</b> (px):"
 
 #: ui/MainWindow.glade:469
 msgid "Add / Remove Keyboard layouts"
-msgstr "Adicionar / Remover Esquemas de teclado"
+msgstr "Adicionar / Remover disposições de teclado"
 
 #: ui/MainWindow.glade:511 ui/MainWindow.glade:552
 msgid "Turkish - Q Keyboard"
-msgstr "Turco - Teclado Q"
+msgstr "Teclado Q - Turco"
 
 #: ui/MainWindow.glade:521 ui/MainWindow.glade:622 ui/MainWindow.glade:723
 msgid "Add"
@@ -77,7 +77,7 @@ msgstr "página1"
 
 #: ui/MainWindow.glade:612 ui/MainWindow.glade:653
 msgid "Turkish - F Keyboard"
-msgstr "Turco - Teclado F"
+msgstr "Teclado F - Turco"
 
 #: ui/MainWindow.glade:713 ui/MainWindow.glade:754
 msgid "English Keyboard"
@@ -88,7 +88,7 @@ msgid ""
 "<span size=\"10000\">You can switch between keyboard layouts with:\n"
 "<b>Super + Space</b></span>"
 msgstr ""
-"<span size=\"10000\">Pode alternar entre esquemas de teclado com:\n"
+"<span size=\"10000\">Pode alternar entre disposições de teclado com:\n"
 "<b>Super + Espaço</b></span>"
 
 #: ui/MainWindow.glade:853
@@ -233,19 +233,19 @@ msgstr "<span size=\"large\">Ligações</span>"
 
 #: ui/MainWindow.glade:1144
 msgid ""
-"<a href=\"https://www.pardus.org.tr\" title=\"https://www.pardus.org.tr"
-"\">Home Page</a>"
+"<a href=\"https://www.pardus.org.tr\" title=\"https://www.pardus.org."
+"tr\">Home Page</a>"
 msgstr ""
-"<a href=\"https://www.pardus.org.tr\" title=\"https://www.pardus.org.tr"
-"\">Página inicial</a>"
+"<a href=\"https://www.pardus.org.tr\" title=\"https://www.pardus.org."
+"tr\">Página inicial</a>"
 
 #: ui/MainWindow.glade:1157
 msgid ""
-"<a href=\"https://belge.pardus.org.tr\" title=\"https://belge.pardus.org.tr"
-"\">Documentations</a>"
+"<a href=\"https://belge.pardus.org.tr\" title=\"https://belge.pardus.org."
+"tr\">Documentations</a>"
 msgstr ""
-"<a href=\"https://belge.pardus.org.tr\" title=\"https://belge.pardus.org.tr"
-"\">Documentação</a>"
+"<a href=\"https://belge.pardus.org.tr\" title=\"https://belge.pardus.org."
+"tr\">Documentação</a>"
 
 #: ui/MainWindow.glade:1170
 msgid ""
@@ -257,11 +257,11 @@ msgstr ""
 
 #: ui/MainWindow.glade:1183
 msgid ""
-"<a href=\"https://forum.pardus.org.tr\" title=\"https://forum.pardus.org.tr"
-"\">Forum</a>"
+"<a href=\"https://forum.pardus.org.tr\" title=\"https://forum.pardus.org."
+"tr\">Forum</a>"
 msgstr ""
-"<a href=\"https://forum.pardus.org.tr\" title=\"https://forum.pardus.org.tr"
-"\">Fórum</a>"
+"<a href=\"https://forum.pardus.org.tr\" title=\"https://forum.pardus.org."
+"tr\">Fórum</a>"
 
 #: ui/MainWindow.glade:1219 ui/MainWindow.glade:1247
 msgid "<small></small>"
