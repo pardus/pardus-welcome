@@ -43,7 +43,7 @@ else:
     ErrorDialog("Error", "Your desktop environment is not supported yet.")
     exit(0)
 
-autostart_file = str(Path.home()) + "/.config/autostart/tr.org.pardus.welcome.desktop"
+autostart_file = os.getenv("XDG_CONFIG_HOME",  str(Path.home()) + "/.config") + "/autostart/tr.org.pardus.welcome.desktop"
 
 # In live mode, the application should not welcome the user
 if utils.check_live() and os.path.isfile(autostart_file):
