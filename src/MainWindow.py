@@ -39,6 +39,13 @@ elif "gnome" in getenv("SESSION").lower() or "gnome" in getenv("XDG_CURRENT_DESK
     import gnome.ScaleManager as ScaleManager
 
     currentDesktop = "gnome"
+elif "kde" in getenv("SESSION").lower() or "plasma" in getenv("XDG_CURRENT_DESKTOP").lower():
+    import kde.WallpaperManager as WallpaperManager
+    import kde.ThemeManager as ThemeManager
+    import kde.ScaleManager as ScaleManager
+    import kde.KdeOptimizer as KdeOptimizer
+
+    currentDesktop = "kde"
 else:
     ErrorDialog("Error", "Your desktop environment is not supported yet.")
     exit(0)
@@ -78,6 +85,12 @@ class MainWindow:
 
         # Component Definitions
         self.defineComponents()
+
+        if currentDesktop == "kde":
+            try:
+                KdeOptimizer.KdeOptimizer().run_all_fixes()
+            except Exception:
+                pass
 
         # Add Scaling Slider Marks
         self.addSliderMarks()
